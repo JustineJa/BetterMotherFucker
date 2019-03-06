@@ -1,0 +1,67 @@
+/* Définition des polices personnalisées */
+
+@font-face {
+    font-family: 'lobster_1.3regular';
+    src: url('lobster_1.3-webfont.woff2') format('woff2'),
+         url('lobster_1.3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Eléments principaux de la page */
+
+body
+{
+    background-color: white; 
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+}
+header
+{
+    /*background: url('images/separateur.png') repeat-x bottom;*/
+    width: 80%;
+    background-color: #47453f;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 3px white double;
+    border-radius: 20px;
+    padding-left: 10px;
+    box-shadow: 6px 6px 6px black;
+}
+#titre-principal
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bloc1, #bloc2, #bloc3, #bloc4, #bloc5
+{
+     display: flex;
+     /*flex-wrap: wrap;*/
+     width: 70%;
+     padding: 12px;
+     text-align: justify;
+}
+footer
+{
+    width: 80%;
+    background-color: #47453f;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 3px white double;
+    border-radius: 20px;
+    padding-left: 10px;
+    box-shadow: 6px 6px 6px black;
+}
